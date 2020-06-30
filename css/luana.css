@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    /* background-image: url("/img/giphy.gif"); */
+    background-color: blueviolet;
+    background-size: 100vw 100vh ;
+    font-family: arial;
+  }
+  
+  header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    background-color:white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .menu a {
+    display: block;
+    padding: 10px 44px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+
+  .menu a:active,
+  .menu a:hover {
+    background-color: rgb(255, 0, 119);
+    color: rgb(255, 255, 255);
+  }
+  
+  .menu ul {
+    display:flex; 
+    justify-content: space-around;
+    
+  }
+  
+  .menu li {
+    list-style:none;
+  }
+
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .menu .luanaMenu {
+    background-color:rgb(255, 0, 119) ;
+  }
