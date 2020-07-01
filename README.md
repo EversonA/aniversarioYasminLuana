@@ -1,2 +1,2 @@
 # aniversarioYasminLuana
-Pequeno projeto pessoal para comemorar o aniversario delas.
+Pequeno projeto pessoal para comemorar o aniversario dela
